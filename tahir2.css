@@ -1,0 +1,407 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+.body {
+
+    background-image: url("port.back.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* box-shadow: 0 2px 5px 10px; */
+}
+
+.logo {
+    width: 170px;
+    height: 46px;
+    margin: 18px 50px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    /* From https://css.glass */
+    /* background: rgba(25, 24, 24, 0); */
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.3px);
+    -webkit-backdrop-filter: blur(11.3px);
+
+}
+
+.head img {
+    margin: 15px 0 0 50px;
+    height: 80px;
+    /* filter: drop-shadow(1px 0px 0px rgb(245, 243, 243)); */
+    width: 163px;
+}
+
+.unline {
+    display: flex;
+}
+
+.unline li {
+    list-style: none;
+}
+
+.unline li {
+    text-decoration: none;
+    padding: 30px;
+    /* color: #000; */
+
+
+}
+
+.unline li a {
+    /* position: relative; */
+    text-decoration: none;
+    color: #fff;
+    /* font-size: 18px; */
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.unline li a:hover {
+    color: #df1818;
+}
+
+.unline li a span:hover {
+    color: #fff;
+
+}
+
+
+.self {
+    /* margin: 150px 0px 0 150px; 
+    color: #fff;
+    font-family: 'PT Sans Narrow', sans-serif;  */
+    margin-top: -100px;
+    color: #fff;
+    font-family: 'PT Sans Narrow', sans-serif;
+    /* position: absolute; */
+    /* left: 10%; */
+    padding: 19% 0% 0% 10%;
+}
+
+.pera {
+    padding: 10px;
+    padding-left: 20px;
+    color: #f3dcf5;
+}
+
+.name {
+    padding: 0px 0px 0px 100px;
+    font-size: 55px;
+    font-family: 'Bruno Ace SC', cursive;
+
+}
+
+.Developer {
+    padding: 5px;
+}
+
+.self p {
+    font-size: 40px;
+}
+
+.backg {
+    background-color: #000000fa;
+    box-shadow: 0 2px 5px 10px;
+}
+
+.aboutme {
+    display: flex;
+    width: 100%;
+    /* background-color: #302f2f21; */
+    justify-content: space-around;
+    /* margin: auto; */
+    padding-top: 140px;
+    /* padding-bottom: 100px; */
+
+}
+
+
+
+.aboutmeeee {
+    color: #fffefe;
+    font-size: 55px;
+    padding: 80px 30px 0 0px;
+    font-family: 'Bruno Ace SC', cursive;
+
+
+}
+
+.myimg {
+    background-size: cover;
+    height: 500px;
+    box-shadow: -1px 0px 18px -7px gray;
+    margin-bottom: 120px;
+
+}
+
+span {
+    color: #f10707;
+}
+
+.peragraf {
+    margin: 7px 0 0 0px;
+    font-size: 21px;
+    color: #fff;
+}
+
+.myabout {
+    width: 443px;
+    color: #fff;
+    padding-top: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 19px;
+}
+
+/* .secend {
+    padding-right: 100px;
+} */
+
+.skills {
+    background-color: rgb(23 26 28);
+}
+
+#skill {
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    padding-top: 50px;
+    color: #fcfcfc;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.skills2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    /* border: 2px solid firebrick; */
+    padding: 70px;
+    color: #fff;
+    padding-bottom: 160px;
+
+}
+
+.skills3 {
+    margin-left: 10PX;
+}
+
+
+.skills4 {
+    padding-bottom: 10px;
+    font-size: 35px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.soft li {
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+    /* list-style: none; */
+    padding: 10px;
+}
+
+.skills6 {
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.technical {
+    list-style: none;
+
+}
+
+.technical li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+    /* padding: 0 0 10px 20px; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+.htmllogo {
+    font-size: 40px;
+    padding: 10px;
+}
+
+
+#pro {
+    text-align: center;
+    padding: 50px 0 60px 0;
+    font-size: 50px;
+    font-family: 'Bruno Ace SC', cursive;
+    background-color: rgb(10 10 10);
+    box-shadow: 1px 0px 18px -7px gray;
+    color: #fff;
+}
+
+.project {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(8, 8, 8);
+
+
+}
+
+.project1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.perfect3 {
+    box-shadow: 0px -3px 30px -6px grey;
+}
+
+
+
+
+
+.perfect4 {
+    /* border: 2px solid rgb(50 41 97); */
+    text-align: center;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    border-radius: 22px;
+    text-decoration: none;
+    background-color: rgb(41, 88, 158);
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.blackimg {
+    /* background-image: url(blackimg.jpg); */
+    /* background-size: cover; */
+    background-color: #100f0f;
+}
+
+.cont {
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    /* align-items: flex-end; */
+}
+
+.content1 {
+    padding-bottom: 15px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 40px;
+
+}
+
+.content2 {
+    padding-bottom: 2px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+}
+
+.content3 {
+    padding-bottom: 13px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.content4 {
+    margin: 65px 0px 0px 120px;
+}
+
+.content4 h4 {
+    padding: 3.5px;
+}
+
+.formmane2 {
+    margin: 60px 110px 0px 0px;
+    padding-bottom: 45px;
+}
+
+
+.formmane1 {
+    padding: 11px 150px 11px 11px;
+    border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
+    border-color: #fbf7f7;
+}
+
+.formmane3 {
+    padding: 11px 150px 110px 8px;
+    border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
+    border-color: #fbf7f7;
+}
+
+.formmane4 {
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f10707;
+    border-color: #f10707;
+    color: #fff;
+
+}
+
+.icons {
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.facebooklogo {
+    padding: 3px;
+    color: #4545e5;
+    border-radius: 27px;
+    background-color: #fff;
+}
+
+.insta {
+    padding: 3px;
+    color: #e00000;
+    border-radius: 27px;
+    background-color: #fff;
+}
+
+.github {
+    padding: 3px;
+    color: #fff;
+    border-radius: 27px;
+    background-color: #353131;
+}
+
+.calls {
+    padding: 3px;
+    color: #4545e5;
+    border-radius: 27px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    .skills2 {
+        flex-direction: column;
+    }
+
+
+}
