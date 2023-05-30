@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-
 }
 
 .body {
@@ -76,6 +75,9 @@
 
 }
 
+.menutoggle {
+    display: none;
+}
 
 .self {
     /* margin: 150px 0px 0 150px; 
@@ -291,7 +293,7 @@ span {
 .cont {
     color: #fff;
     text-align: center;
-    padding: 30px 0;
+    padding: 50px 0 10px 0;
     font-family: 'Bruno Ace SC', cursive;
     font-size: 50px;
 }
@@ -396,12 +398,165 @@ span {
 
 
 
-
-
-@media screen and (max-width:480px) {
+@media screen and (max-width:560px) {
     .skills2 {
         flex-direction: column;
+        padding-bottom: 80px;
+        padding: 0px 70px 70px 70px;
     }
 
+    .body {
+        /* width: 100vh; */
+        height: 650px;
+    }
+
+    .head img {
+        margin: 0;
+    }
+
+    .self {
+        padding: 65% 0% 0% 5%;
+    }
+
+    .self p {
+        font-size: 33px;
+    }
+
+    .name {
+        padding-left: 70px;
+    }
+
+    .unline {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgba(25, 24, 24, 0);
+        top: 70px;
+        right: 0;
+
+    }
+
+    .show-menu {
+        display: flex !important;
+    }
+
+    .menutoggle {
+        display: block;
+    }
+
+    .menutoggle {
+        background-color: transparent;
+        border: 1px solid white;
+        height: 40px;
+        width: 40px;
+        margin-right: 20px
+    }
+
+    .menu {
+        padding: 3px;
+        color: #ffffff;
+        /* background-color: #efe6e6; */
+        height: 33px;
+        width: 33px;
+    }
+
+    .unline li {
+        padding: 15px 45px 0px 0px;
+    }
+
+    .aboutme {
+        display: block;
+        /* padding-top: 100px; */
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+
+    }
+
+    .myimg {
+        height: 250px;
+        border-radius: 124px;
+        width: 250px;
+        margin: auto;
+    }
+
+    .aboutmeeee {
+        font-size: 26px;
+        padding-top: 30px;
+    }
+
+    .peragraf {
+        font-size: 15px;
+    }
+
+    .myabout {
+        width: auto;
+        font-size: 13px;
+        text-align: justify;
+        padding-top: 5px
+    }
+
+    .secend {
+        padding: 30px 20px 90px 20px;
+    }
+
+    #skill {
+        padding-top: 30px;
+        font-size: 60px
+    }
+
+    .skills3 {
+        margin-left: 20PX;
+        padding-bottom: 20px;
+    }
+
+    .skills4 {
+        font-size: 25px;
+    }
+
+    .skills6 {
+        font-size: 25px;
+        padding: 0 0 20px 20px;
+    }
+
+
+    .project {
+        display: block;
+    }
+
+    .project1 {
+        width: 300px;
+    }
+
+    .perfect3 {
+        height: 200px;
+        width: 390px;
+    }
+
+    .perfect4 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .cont {
+        padding: 40px 0 20px 0;
+
+    }
+
+    .formmane2 {
+        margin: 0px;
+        margin-left: 30px;
+        padding: 0px;
+    }
+
+    .content4 {
+        margin: 30px 0px 0px 30px;
+    }
 
 }
