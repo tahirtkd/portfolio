@@ -24,7 +24,8 @@
 <body>
     <header class="head">
         <img src="mylogo2-removebg-preview.png" alt="">
-        <ul class="unline">
+        <button class="menutoggle"><ion-icon class="menu" name="menu-outline"></ion-icon></button>
+        <ul class="unline" id="menulist">
             <li><a href="#ho">HOME</a></li>
             <li><a href="#goto"><span>ABOUT</span></a></li>
             <!-- <li><a href="#">SERVICES</a></li> -->
@@ -81,7 +82,7 @@
     <div class="project">
         <div class="project1">
             <img class="perfect3" height="250px" width="450px" src="Screenshot (1).png" alt="">
-            <a class="perfect4" href="http://127.0.0.1:5502/index.html">Visit this site</a>
+            <a class="perfect4" href="https://tahirtkd.github.io/homes/">Visit this site</a>
         </div>
         <div class="project1">
             <img class="perfect3" height="250px" width="450px" src="Screenshot (2).png" alt="">
@@ -134,6 +135,16 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        var menuButton = document.querySelector(".menutoggle");
+
+        menuButton.addEventListener("click", function () {
+            document.querySelector("#menulist").classList.toggle("show-menu")
+        })
+
+
+    </script>
 </body>
 
 </html>
