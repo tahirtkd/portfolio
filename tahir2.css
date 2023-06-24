@@ -267,9 +267,6 @@ span {
 }
 
 
-
-
-
 .perfect4 {
     /* border: 2px solid rgb(50 41 97); */
     text-align: center;
@@ -536,7 +533,8 @@ span {
     }
 
     .project1 {
-        width: 300px;
+        width: 80%;
+        margin: auto;
     }
 
     #pro {
@@ -570,7 +568,7 @@ span {
 
     .formmane2 {
         margin: 0px;
-        margin-left: 15px;
+        margin-left: 40px;
         padding: 0px;
     }
 
@@ -591,11 +589,11 @@ span {
     }
 
     .content4 {
-        margin: 30px 0px 0px 15px;
+        margin: 30px 0px 0px 40px;
     }
 
     .icons {
-        padding: 20px 0px 100px;
+        padding: 20px 0px 60px;
     }
 
 
