@@ -162,19 +162,28 @@
             event.preventDefault();
             let form = event.target;
             let tahir = {
-                name: form.Name.value,
-                email: form.Gmail.value,
-                subject: form.Number.value,
-                message: form.Text.value
+                adminMail: "tahirtkd7@gmail.com",
+                message: {
+                    Name: form.Name.value,
+                    Email: form.Gmail.value,
+                    Number: form.Number.value,
+                    Message: form.Text.value
+                }
+
             }
             console.log(tahir);
-
+            let headersList = {
+                "Accept": "/",
+                "Content-Type": "application/json"
+            }
             let requestOptions = {
                 method: 'POST',
                 body: JSON.stringify(tahir),
+                headers: headersList
+
             };
 
-            fetch("https://www.sahir.in/api/contact-us", requestOptions)
+            fetch("https://general-apis.vercel.app/api/send-email", requestOptions)
                 .then(response => response.text())
                 .then(result => console.log(result))
                 .catch(error => console.log('error', error));
